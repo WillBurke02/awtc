@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box {
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input[type="text"], button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #1f1f1f;
+  }
+
+  .order-details-box {
+    display: none; 
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #ccc;
+  }
+
+  .order-details-box h2 {
+    font-size: 24px;
+  }
+
+  #orderDetails {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #orderDetails li {
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
